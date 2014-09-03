@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBED4F2319B5C543009976B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBED4F2219B5C543009976B5 /* Foundation.framework */; };
+		BBED4F2519B5C543009976B5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBED4F2419B5C543009976B5 /* CoreGraphics.framework */; };
+		BBED4F2719B5C543009976B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBED4F2619B5C543009976B5 /* UIKit.framework */; };
+		BBED4F2D19B5C543009976B5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BBED4F2B19B5C543009976B5 /* InfoPlist.strings */; };
+		BBED4F2F19B5C543009976B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BBED4F2E19B5C543009976B5 /* main.m */; };
+		BBED4F3319B5C543009976B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BBED4F3219B5C543009976B5 /* AppDelegate.m */; };
+		BBED4F3619B5C543009976B5 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBED4F3419B5C543009976B5 /* Main_iPhone.storyboard */; };
+		BBED4F3919B5C543009976B5 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBED4F3719B5C543009976B5 /* Main_iPad.storyboard */; };
+		BBED4F3C19B5C543009976B5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBED4F3B19B5C543009976B5 /* ViewController.m */; };
+		BBED4F3E19B5C543009976B5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBED4F3D19B5C543009976B5 /* Images.xcassets */; };
+		BBED4F4519B5C543009976B5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBED4F4419B5C543009976B5 /* XCTest.framework */; };
+		BBED4F4619B5C543009976B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBED4F2219B5C543009976B5 /* Foundation.framework */; };
+		BBED4F4719B5C543009976B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBED4F2619B5C543009976B5 /* UIKit.framework */; };
+		BBED4F4F19B5C543009976B5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BBED4F4D19B5C543009976B5 /* InfoPlist.strings */; };
+		BBED4F5119B5C543009976B5 /* UICustomAlertViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BBED4F5019B5C543009976B5 /* UICustomAlertViewTests.m */; };
+		BBED4F5D19B5C5E4009976B5 /* UICustomAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBED4F5C19B5C5E4009976B5 /* UICustomAlertView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BBED4F4819B5C543009976B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBED4F1719B5C543009976B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBED4F1E19B5C543009976B5;
+			remoteInfo = UICustomAlertView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BBED4F1F19B5C543009976B5 /* UICustomAlertView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UICustomAlertView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBED4F2219B5C543009976B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BBED4F2419B5C543009976B5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BBED4F2619B5C543009976B5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BBED4F2A19B5C543009976B5 /* UICustomAlertView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UICustomAlertView-Info.plist"; sourceTree = "<group>"; };
+		BBED4F2C19B5C543009976B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BBED4F2E19B5C543009976B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BBED4F3019B5C543009976B5 /* UICustomAlertView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UICustomAlertView-Prefix.pch"; sourceTree = "<group>"; };
+		BBED4F3119B5C543009976B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BBED4F3219B5C543009976B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BBED4F3519B5C543009976B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		BBED4F3819B5C543009976B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		BBED4F3A19B5C543009976B5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BBED4F3B19B5C543009976B5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BBED4F3D19B5C543009976B5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BBED4F4319B5C543009976B5 /* UICustomAlertViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UICustomAlertViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBED4F4419B5C543009976B5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BBED4F4C19B5C543009976B5 /* UICustomAlertViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UICustomAlertViewTests-Info.plist"; sourceTree = "<group>"; };
+		BBED4F4E19B5C543009976B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BBED4F5019B5C543009976B5 /* UICustomAlertViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UICustomAlertViewTests.m; sourceTree = "<group>"; };
+		BBED4F5B19B5C5E4009976B5 /* UICustomAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICustomAlertView.h; sourceTree = "<group>"; };
+		BBED4F5C19B5C5E4009976B5 /* UICustomAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICustomAlertView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBED4F1C19B5C543009976B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBED4F2519B5C543009976B5 /* CoreGraphics.framework in Frameworks */,
+				BBED4F2719B5C543009976B5 /* UIKit.framework in Frameworks */,
+				BBED4F2319B5C543009976B5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBED4F4019B5C543009976B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBED4F4519B5C543009976B5 /* XCTest.framework in Frameworks */,
+				BBED4F4719B5C543009976B5 /* UIKit.framework in Frameworks */,
+				BBED4F4619B5C543009976B5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BBED4F1619B5C543009976B5 = {
+			isa = PBXGroup;
+			children = (
+				BBED4F2819B5C543009976B5 /* UICustomAlertView */,
+				BBED4F4A19B5C543009976B5 /* UICustomAlertViewTests */,
+				BBED4F2119B5C543009976B5 /* Frameworks */,
+				BBED4F2019B5C543009976B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BBED4F2019B5C543009976B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBED4F1F19B5C543009976B5 /* UICustomAlertView.app */,
+				BBED4F4319B5C543009976B5 /* UICustomAlertViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBED4F2119B5C543009976B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBED4F2219B5C543009976B5 /* Foundation.framework */,
+				BBED4F2419B5C543009976B5 /* CoreGraphics.framework */,
+				BBED4F2619B5C543009976B5 /* UIKit.framework */,
+				BBED4F4419B5C543009976B5 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BBED4F2819B5C543009976B5 /* UICustomAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				BBED4F5A19B5C5A7009976B5 /* AlertView */,
+				BBED4F3119B5C543009976B5 /* AppDelegate.h */,
+				BBED4F3219B5C543009976B5 /* AppDelegate.m */,
+				BBED4F3419B5C543009976B5 /* Main_iPhone.storyboard */,
+				BBED4F3719B5C543009976B5 /* Main_iPad.storyboard */,
+				BBED4F3A19B5C543009976B5 /* ViewController.h */,
+				BBED4F3B19B5C543009976B5 /* ViewController.m */,
+				BBED4F3D19B5C543009976B5 /* Images.xcassets */,
+				BBED4F2919B5C543009976B5 /* Supporting Files */,
+			);
+			path = UICustomAlertView;
+			sourceTree = "<group>";
+		};
+		BBED4F2919B5C543009976B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BBED4F2A19B5C543009976B5 /* UICustomAlertView-Info.plist */,
+				BBED4F2B19B5C543009976B5 /* InfoPlist.strings */,
+				BBED4F2E19B5C543009976B5 /* main.m */,
+				BBED4F3019B5C543009976B5 /* UICustomAlertView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BBED4F4A19B5C543009976B5 /* UICustomAlertViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				BBED4F5019B5C543009976B5 /* UICustomAlertViewTests.m */,
+				BBED4F4B19B5C543009976B5 /* Supporting Files */,
+			);
+			path = UICustomAlertViewTests;
+			sourceTree = "<group>";
+		};
+		BBED4F4B19B5C543009976B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BBED4F4C19B5C543009976B5 /* UICustomAlertViewTests-Info.plist */,
+				BBED4F4D19B5C543009976B5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BBED4F5A19B5C5A7009976B5 /* AlertView */ = {
+			isa = PBXGroup;
+			children = (
+				BBED4F5B19B5C5E4009976B5 /* UICustomAlertView.h */,
+				BBED4F5C19B5C5E4009976B5 /* UICustomAlertView.m */,
+			);
+			path = AlertView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBED4F1E19B5C543009976B5 /* UICustomAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBED4F5419B5C543009976B5 /* Build configuration list for PBXNativeTarget "UICustomAlertView" */;
+			buildPhases = (
+				BBED4F1B19B5C543009976B5 /* Sources */,
+				BBED4F1C19B5C543009976B5 /* Frameworks */,
+				BBED4F1D19B5C543009976B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UICustomAlertView;
+			productName = UICustomAlertView;
+			productReference = BBED4F1F19B5C543009976B5 /* UICustomAlertView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BBED4F4219B5C543009976B5 /* UICustomAlertViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBED4F5719B5C543009976B5 /* Build configuration list for PBXNativeTarget "UICustomAlertViewTests" */;
+			buildPhases = (
+				BBED4F3F19B5C543009976B5 /* Sources */,
+				BBED4F4019B5C543009976B5 /* Frameworks */,
+				BBED4F4119B5C543009976B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBED4F4919B5C543009976B5 /* PBXTargetDependency */,
+			);
+			name = UICustomAlertViewTests;
+			productName = UICustomAlertViewTests;
+			productReference = BBED4F4319B5C543009976B5 /* UICustomAlertViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBED4F1719B5C543009976B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Rahul Gunjote";
+				TargetAttributes = {
+					BBED4F4219B5C543009976B5 = {
+						TestTargetID = BBED4F1E19B5C543009976B5;
+					};
+				};
+			};
+			buildConfigurationList = BBED4F1A19B5C543009976B5 /* Build configuration list for PBXProject "UICustomAlertView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBED4F1619B5C543009976B5;
+			productRefGroup = BBED4F2019B5C543009976B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBED4F1E19B5C543009976B5 /* UICustomAlertView */,
+				BBED4F4219B5C543009976B5 /* UICustomAlertViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBED4F1D19B5C543009976B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBED4F3919B5C543009976B5 /* Main_iPad.storyboard in Resources */,
+				BBED4F3E19B5C543009976B5 /* Images.xcassets in Resources */,
+				BBED4F3619B5C543009976B5 /* Main_iPhone.storyboard in Resources */,
+				BBED4F2D19B5C543009976B5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBED4F4119B5C543009976B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBED4F4F19B5C543009976B5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBED4F1B19B5C543009976B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBED4F3C19B5C543009976B5 /* ViewController.m in Sources */,
+				BBED4F3319B5C543009976B5 /* AppDelegate.m in Sources */,
+				BBED4F5D19B5C5E4009976B5 /* UICustomAlertView.m in Sources */,
+				BBED4F2F19B5C543009976B5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBED4F3F19B5C543009976B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBED4F5119B5C543009976B5 /* UICustomAlertViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BBED4F4919B5C543009976B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBED4F1E19B5C543009976B5 /* UICustomAlertView */;
+			targetProxy = BBED4F4819B5C543009976B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BBED4F2B19B5C543009976B5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBED4F2C19B5C543009976B5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BBED4F3419B5C543009976B5 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBED4F3519B5C543009976B5 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		BBED4F3719B5C543009976B5 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBED4F3819B5C543009976B5 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		BBED4F4D19B5C543009976B5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBED4F4E19B5C543009976B5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BBED4F5219B5C543009976B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BBED4F5319B5C543009976B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBED4F5519B5C543009976B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UICustomAlertView/UICustomAlertView-Prefix.pch";
+				INFOPLIST_FILE = "UICustomAlertView/UICustomAlertView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BBED4F5619B5C543009976B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UICustomAlertView/UICustomAlertView-Prefix.pch";
+				INFOPLIST_FILE = "UICustomAlertView/UICustomAlertView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BBED4F5819B5C543009976B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UICustomAlertView.app/UICustomAlertView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UICustomAlertView/UICustomAlertView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UICustomAlertViewTests/UICustomAlertViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BBED4F5919B5C543009976B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UICustomAlertView.app/UICustomAlertView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UICustomAlertView/UICustomAlertView-Prefix.pch";
+				INFOPLIST_FILE = "UICustomAlertViewTests/UICustomAlertViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBED4F1A19B5C543009976B5 /* Build configuration list for PBXProject "UICustomAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBED4F5219B5C543009976B5 /* Debug */,
+				BBED4F5319B5C543009976B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBED4F5419B5C543009976B5 /* Build configuration list for PBXNativeTarget "UICustomAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBED4F5519B5C543009976B5 /* Debug */,
+				BBED4F5619B5C543009976B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBED4F5719B5C543009976B5 /* Build configuration list for PBXNativeTarget "UICustomAlertViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBED4F5819B5C543009976B5 /* Debug */,
+				BBED4F5919B5C543009976B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBED4F1719B5C543009976B5 /* Project object */;
+}

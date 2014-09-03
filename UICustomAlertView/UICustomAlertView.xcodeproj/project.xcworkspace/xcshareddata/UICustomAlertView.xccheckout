@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6A51279F-61B9-483A-B87B-75FD27BFF5B0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>UICustomAlertView</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>37888488-2DA7-4633-B1B0-0FA49697CB2B</key>
+		<string>https://github.com/rahulgunjote/UICustomAlertView.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>UICustomAlertView/UICustomAlertView.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>37888488-2DA7-4633-B1B0-0FA49697CB2B</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/rahulgunjote/UICustomAlertView.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>37888488-2DA7-4633-B1B0-0FA49697CB2B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>37888488-2DA7-4633-B1B0-0FA49697CB2B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>UICustomAlertView</string>
+		</dict>
+	</array>
+</dict>
+</plist>
